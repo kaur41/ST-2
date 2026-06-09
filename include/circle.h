@@ -3,12 +3,12 @@
 #define INCLUDE_CIRCLE_H_
 
 class Circle {
-private:
-    double radius_;   
-    double ference_;  
-    double area_;     
+ private:
+    double radius_;
+    double ference_;
+    double area_;
 
-public:
+ public:
     explicit Circle(double radius);
 
     double getRadius() const;
